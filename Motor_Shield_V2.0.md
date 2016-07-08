@@ -35,24 +35,25 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 
 - EB - channel 1 enable, high active
 - IN3 - status of OUT3
+
 - IN4 - status of OUT4
 
 2. Channel 1 Sense - Please connect the left 2 pins together for normal usage.
 
-   **Note** that it's a high level application for sense the current, please refer to datasheet and schematic for more information.
-   
+**Note** that it's a high level application for sense the current, please refer to datasheet and schematic for more information.
+
 3. OUTPUT - There're 2 channels, each channel has 2 output
 
-  - Channel 0 - OUT1, OUT2
-  - Channel 1 - OUT3, OUT4
+- Channel 0 - OUT1, OUT2
+- Channel 1 - OUT3, OUT4
   
 4. Channel 0 Sense
 
 5. Channel 0 indicator, include 3 leds
 
- - EB - channel 0 enable, high active
- - IN1 - status of OUT1
- - IN2 - status of OUT2
+- EB - channel 0 enable, high active
+- IN1 - status of OUT1
+- IN2 - status of OUT2
  
 6. External Power Input, range 6-15V
 
