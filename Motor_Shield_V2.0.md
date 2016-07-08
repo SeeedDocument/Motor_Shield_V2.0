@@ -153,11 +153,12 @@ You need to do some preparing first:
 - Connect **MB_EN** together with a jumper, as we are no going to use an external power.
 
 Find the pin definitions of you stepper, and connect it to the OUTPUT of the shield. As below:
-|Stepper   |Motor Shield        |
+
+|Stepper   |Motor Shield  |
 |:------|:-----------------|
-|A+   |	OUT1      |
-|A-	|OUT2          |
-|B+ 	|OUT3   |
+|A+   |	OUT1  |
+|A-	|OUT2  |
+|B+ 	|OUT3  |
 |B-    |OUT4 |
 Then open **stepper_test** example in the library, upload it to Seeeduino V4, then you will find your stepper move.
 ```Javascript
