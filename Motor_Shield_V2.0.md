@@ -241,10 +241,8 @@ Set speed, control by PWM.
 void move(int motor_id, int speed);
 ```
 - motor_id
-
-- 0 - Chanel 0
-- 1 - Chanel 1
-
+  - 0 - Chanel 0
+  - 1 - Chanel 1
 - speed: -100~100, the larger the faster, 0 for stop
 
 **stop**
