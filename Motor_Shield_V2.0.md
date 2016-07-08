@@ -106,7 +106,7 @@ We need a[ Seeeduino V4 ](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688#Gett
 
 And you need a dc motor or a stepper for testing.
 
-**Download the library**
+### Download the library
 
 Click the below button to download the library. If the library you had download include "**-master**", please remove it.
 
