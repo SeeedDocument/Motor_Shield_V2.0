@@ -30,6 +30,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 ## Hardware Overivew
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/700px-MotorShieldHardware.png)
+
 1. Channel 1 indicator, include 3 leds
 - EB - channel 1 enable, high active
 - IN3 - status of OUT3
