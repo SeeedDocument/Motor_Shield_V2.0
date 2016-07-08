@@ -44,9 +44,11 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 
 3. OUTPUT - There're 2 channels, each channel has 2 output
 
+
 - Channel 0 - OUT1, OUT2
 - Channel 1 - OUT3, OUT4
   
+
 4. Channel 0 Sense
 
 5. Channel 0 indicator, include 3 leds
