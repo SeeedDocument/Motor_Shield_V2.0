@@ -14,8 +14,9 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 - Led indicator
 - Heat sink for better performance
 - Arduino library
-## Specifications
 
+
+## Specifications
 
 
 |Spec   |Value|
