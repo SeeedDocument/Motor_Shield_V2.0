@@ -27,7 +27,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 |Output    |2 Channels, 4 Ports|
 
 ## Hardware Overivew
-***
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/700px-MotorShieldHardware.png)
 1. Channel 1 indicator, include 3 leds
 - EB - channel 1 enable, high active
@@ -83,7 +83,7 @@ B. Standard Arduino shield pin out
 |D5    |Not Used |
 **Note** that Not Used means you can use those pins freely. 
 ## Getteing Started
-***
+
 Here we will show you how to drive a dc motor and a stepper with this shield.
 
 We need a[ Seeeduino V4 ](http://www.seeedstudio.com/wiki/LinkIt_Smart_7688#Getting_Started)as the controller, Seeeduino V4 is an Arduino compatible board, and you can use an Arduino as well.
@@ -209,7 +209,7 @@ void loop()
 If there's nothing happen, please double check if you had connected the wire right.
 
 ## Library APIs
-***
+
 ### begin
 **Description**
 ```Javascript
@@ -241,7 +241,7 @@ void brake(unsigned char motor_id);
 There's something need to be modified, please refer the examples.
 
 ### Resources
-***
+
 - [ Motor Shield V2.0 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_Shield_Eagle_File.zip)
 - [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_shield_2.1.rar)
 - [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_shield_2.0.pdf)
