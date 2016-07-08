@@ -1,12 +1,12 @@
 # Motor Shield V2.0
-***
+
 
 The Motor Shield is a driver module for motors that allows you to use Arduino to control the working speed and direction of the motor. Based on the Dual Full-Bridge Drive Chip L298, it is able to drive two DC motors or a step motor. The Motor Shield can either be powered directly by Arduino or by an external 6V~15V power supply via the terminal input. This module can be used for the development of micro robots and intelligent vehicles, etc
 
 [![Get one now](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/150px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/item_detail.html?p_id=1377)
 
 ## Features
-***
+
 - Standard Arduino UNO Shield pin out
 - Based on L298 full bridge IC
 - Drive 2 DC Motor or 1 Stepper
@@ -15,7 +15,7 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 - Heat sink for better performance
 - Arduino library
 ## Specifications
-***
+
 
 
 |Spec   |Value         |
