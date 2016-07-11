@@ -269,5 +269,7 @@ There's something need to be modified, please refer the examples.
 - [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/L298.pdf)
 - [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/78M05_datasheet.pdf)
 
+## Is this page helpful
+<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/GVX6F6V" frameborder="0"></iframe>
 
 
