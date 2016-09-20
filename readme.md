@@ -8,7 +8,7 @@ Motor_Shield_V2.0
 
 ###Change Log:
 
-**2016-7-6:** create repos by luoyi7 (yi.luo@seeed.cc)
+**2016-7-6:** create repos by [loovee](loovee@seeed.cc)
 
 
 --------

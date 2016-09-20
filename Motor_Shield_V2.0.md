@@ -1,9 +1,24 @@
-# Motor Shield V2.0
+---
+title: Motor Shield V2.0
+category: Arduino
+bzurl: https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html
+oldwikiname: Motor_Shield_V2.0
+prodimagename: 500px-Motorshield_01.jpg
+surveyurl: https://www.surveymonkey.com/r/MotorShield
+sku: 105030001
+---
+
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/500px-Motorshield_01.jpg)
+
+!!!Note
+    This document works for Motor Shield V2.0/2.1/2.2.
 
 
 The Motor Shield is a driver module for motors that allows you to use Arduino to control the working speed and direction of the motor. Based on the Dual Full-Bridge Drive Chip L298, it is able to drive two DC motors or a step motor. The Motor Shield can either be powered directly by Arduino or by an external 6V~15V power supply via the terminal input. This module can be used for the development of micro robots and intelligent vehicles, etc
 
-[![Get one now](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/150px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/item_detail.html?p_id=1377)
+[![Get one now](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](https://www.seeedstudio.com/item_detail.html?p_id=1377)
+
+
 
 ## Features
 
@@ -31,44 +46,44 @@ The Motor Shield is a driver module for motors that allows you to use Arduino to
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Motor_Shield_V2.0/master/image/700px-MotorShieldHardware.png)
 
-1.Channel 1 indicator, include 3 leds
+**1**.Channel 1 indicator, include 3 leds
 
 - EB - channel 1 enable, high active
 - IN3 - status of OUT3
 - IN4 - status of OUT4
 
-2.Channel 1 Sense - Please connect the left 2 pins together for normal usage.
+**2**.Channel 1 Sense - Please connect the left 2 pins together for normal usage.
 
 **Note** that it's a high level application for sense the current, please refer to datasheet and schematic for more information.
 
-3.OUTPUT - There're 2 channels, each channel has 2 output
-
+**3**.OUTPUT - There're 2 channels, each channel has 2 output
 
 - Channel 0 - OUT1, OUT2
 - Channel 1 - OUT3, OUT4
   
+**4**.Channel 0 Sense
 
-4.Channel 0 Sense
-
-5.Channel 0 indicator, include 3 leds
+**5**.Channel 0 indicator, include 3 leds
 
 - EB - channel 0 enable, high active
 - IN1 - status of OUT1
 - IN2 - status of OUT2
  
-6.External Power Input, range 6-15V
+**6**.External Power Input, range 6-15V
 
-7.Reset indicator - turn red when Reset button is pressed
+**7**.Reset indicator - turn red when Reset button is pressed
 
-8.Reset button - pressed to reset the shield and Arduino
+**8**.Reset button - pressed to reset the shield and Arduino
 
-9.Power indicator - turn green when power in, either internal or external
+**9**.Power indicator - turn green when power in, either internal or external
 
-A.Power switch
+**A.**Power switch
+
 - Connect - Get power from Arduino
 - Disconnect - Get power from External sources
 
-B.Standard Arduino shield pin out
+**B.**Standard Arduino shield pin out
+
 ### Digital Pin Used
 |Arduino Pin   |Function        |
 |:------|:-----------------|
@@ -86,7 +101,9 @@ B.Standard Arduino shield pin out
 |D11    |**OUT2** |
 |D12    |**OUT3**|
 |D13    |	**OUT4** |
-**Note** that D8~D13 was used by Motor Shield. Please don't use those pins to avoid conflict.
+
+!!!Note
+    D8~D13 was used by Motor Shield. Please don't use those pins to avoid conflict.
 
 ### Analog Pin Used
 |Arduino Pin   |Function        |
@@ -97,7 +114,11 @@ B.Standard Arduino shield pin out
 |D3	    |Not Used  |
 |D4    |Not Used |
 |D5    |Not Used |
-**Note** that Not Used means you can use those pins freely. 
+
+
+!!!Note
+    Not Used means you can use those pins freely. 
+    
 ## Getteing Started
 
 Here we will show you how to drive a dc motor and a stepper with this shield.
@@ -177,8 +198,9 @@ Find the pin definitions of you stepper, and connect it to the OUTPUT of the shi
 |A-	|OUT2  |
 |B+ 	|OUT3  |
 |B-    |OUT4 |
+
 Then open **stepper_test** example in the library, upload it to Seeeduino V4, then you will find your stepper move.
-```Javascript
+```
 /*
  * Stepper test for Seeed Motor Shield V2
  * loovee @ 15 Mar, 2016
@@ -260,16 +282,12 @@ There's something need to be modified, please refer the examples.
 
 ### Resources
 
-- [ Motor Shield V2.0 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_Shield_Eagle_File.zip)
-- [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_shield_2.1.rar)
-- [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_shield_2.0.pdf)
-- [Motor Shield 2.1 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_shield_2.1.pdf)
-- [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/Motor_Shield_V2.2.zip)
+- [ Motor Shield V2.0 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_Shield_Eagle_File.zip)
+- [Motor shield V2.1 Eagle File ](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.rar)
+- [Motor Shield 2.0 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.0.pdf)
+- [Motor Shield 2.1 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_shield_2.1.pdf)
+- [Motor Shield 2.2 schematics](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/Motor_Shield_V2.2.zip)
 - [Motor Shield Library](https://github.com/Seeed-Studio/SeeedMotorShieldV2)
-- [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/L298.pdf)
-- [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/resource/78M05_datasheet.pdf)
-
-## Is this page helpful
-<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/GVX6F6V" frameborder="0"></iframe>
-
+- [L298 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/L298.pdf)
+- [78M05 Datasheet](https://github.com/SeeedDocument/Motor_Shield_V2.0/raw/master/resource/78M05_datasheet.pdf)
 
